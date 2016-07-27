@@ -1,0 +1,87 @@
+/*Popup*/
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.popup {
+  display: block;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity .5s;
+
+  overflow: auto;
+  position: fixed;
+  left: 0;
+  right: 0;
+  z-index: 999999;
+  bottom: 0;
+  top: 0;
+
+
+
+}
+
+.popup__wp {
+  max-width: 736px;
+  background: #fff;
+  box-sizing: border-box;
+  margin:85px auto 85px;
+  box-shadow: 0 1px 9px rgba(30,15,0,.53);
+}
+
+
+
+.overlay:target {
+  visibility: visible;
+  opacity: 1; }
+
+.overlay:target + .popup {
+  opacity: 1;
+  visibility: visible; }
+
+.overlay {
+  visibility: hidden;
+  background: rgba(80, 80, 80, 0.5);
+  bottom: 0;
+  opacity: 0;
+  z-index: 99999;
+
+  cursor: default;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0; }
+
+.popup__top {
+  text-align: right;
+  height: 60px;
+
+}
+
+.popup__content .title {
+  font-weight: bold;
+}
+
+.popup__text {
+  margin-bottom: 28px; }
+
+.popup__content {
+  padding: 0 50px 50px 50px;
+  font-size: 15px;
+}
+
+.icon-close {
+  display: inline-block;
+  text-decoration: none;
+  margin: 25px;
+  height: 18px;
+  width: 18px;
+  background: url("../img/icon-close.png") no-repeat;
+}
+
+.icon-close:hover {
+
+  }
+
+/*Popup end*/

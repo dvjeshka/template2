@@ -1,0 +1,127 @@
+/*Slider*/
+
+.slider-main {
+  height: 360px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.slider-main__block {
+  position: relative;
+  background: no-repeat;
+  background-size: cover;
+  height: 360px;
+  width: 100%;
+}
+
+
+.slider-main__text {
+  color: #4e5366;
+  font-size: 18px;
+}
+
+.slider-main__title {
+  color:black;
+  text-transform: uppercase;
+  font-size: 35px;
+  margin-bottom: 28px;
+}
+
+.slider-main__content {
+  padding-left: 105px;
+  padding-top: 120px;
+}
+
+.slider-main img {
+  height: 100%;
+}
+
+.slick-slider {
+  margin-bottom: 0;
+}
+.slick-slide img {
+  margin: 0 auto;
+}
+
+.slick-dots {
+  bottom: -5px;
+}
+
+.slick-dots li button:before {
+  font-size: 32px;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: '•';
+  text-align: center;
+  color: black;
+  opacity: 1;
+}
+
+.slick-dots li.slick-active button:before {
+  color: red;
+  opacity: 1;
+}
+
+.slick-dots li button:focus:before, .slick-dots li button:hover:before {
+  opacity: 1;
+}
+
+.slick-dots li {
+  margin: 0;
+}
+.slick-dots li, .slick-dots li button {
+  width: 19px;
+
+}
+
+
+
+.slider-main .slick-prev {
+  left: 24px;
+  z-index: 1;
+}
+
+.slider-main .slick-next {
+  right: 24px;
+  z-index: 1;
+}
+
+
+
+
+.slick-next:before, .slick-prev:before {
+  content:'';
+    width: 20px;
+    height: 33px;
+    background: url("../img/icon-arrow-left.png") no-repeat;
+    z-index: 1;
+    display: block;
+}
+
+.slick-next:before  {
+  transform: rotate(180deg);
+}
+
+
+
+/*Slider-item*/
+  .slider-item__item {
+    width: 215px;
+    display: block;
+    text-decoration: none;
+  }
+  .slider-item__img {
+    border-radius: 3px;
+  }
+
+  .slider-item__title {
+    font-size: 18px;
+  }
+
+/*Slider-item end*/
+/*Slider End*/

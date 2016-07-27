@@ -1,0 +1,32 @@
+
+.wrapper__footer,.footer {
+  min-height: 80px;
+}
+
+.footer {
+  margin-top: -80px;
+  background: gray;
+}
+
+.footer__cop,.footer__design {
+  @extend %inb;
+  width: 49%;
+}
+
+.footer__cop {
+  text-align: left;
+}
+
+.footer__design {
+  text-align: right;
+}
+
+.footer__design .link {
+  color:#252525;
+  text-decoration: underline;
+}
+
+
+.footer__design .link:hover {
+  text-decoration: none;
+}

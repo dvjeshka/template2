@@ -1,0 +1,53 @@
+
+doctype html
+
+include mixin
+html
+    head
+        link(href='img/favicon.ico', rel='shortcut icon', type='image/x-icon')
+        meta(charset='utf-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        title Инсайт маркет
+        meta(name='description', content='')
+        meta(name='keywords', content='')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        link(href='https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic', rel='stylesheet', type='text/css')
+        link(rel='stylesheet', href='css/main.css')
+    body.page
+        include popup
+        .wrapper
+            header.header
+                .contain
+                    .header__top
+                    a.logo(href='/')
+                        img(src='img/logo.png',alt='')
+
+                        a.btn(href='#popup-form') Попап форма
+                        a.btn(href='#popup') Попапа
+                nav.menu
+                    .contain
+                        +menu(menuItem,3)(class='menu')
+            block content
+            .wrapper__footer
+        footer.footer
+            nav.menu
+                .contain
+                    +menu(menuItem,3)(class='menu')
+            .contain
+                a.design(href='#')
+                    | Сделала
+                    img.design__img(src='img/logo-gen.png', alt='Генерация разработка сайтов')
+                .footer__copyright Все права защищены «Новик» 2015
+                .footer__cop © Ваше Здоровье, 2016
+                .footer__design
+                    a.link(href='#') Разработка и продвижение Студия «»
+        script(src='js/jquery.min.js')
+        script(src='js/main.js')
+
+
+
+
+
+
+
+

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link href="img/favicon.ico" rel="shortcut icon" type="image/x-icon">
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>Инсайт маркет</title>
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,400italic,700,700italic" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body class="page">
+		<div class="popups">
+			<div class="popups__item"><a id="popup" href="#x" class="overlay"></a>
+				<div class="popup">
+					<div class="popup__wp">
+						<div class="popup__top"><a href="#x" class="popup__close icon-close"></a></div>
+						<div class="popup__content">
+							<div class="form__call-text">
+								<div class="popup__title title">Ваш заказ успшно оформлен!</div>
+								<div class="popup__text">
+									<p>Заказ № 378596 доступен для самовывоза по адресу Донбасская, 23а.</p>
+									<p>Подробности уточняйте по телефону 235-67-99</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="popups__item"><a id="popup-form" href="#x" class="overlay"></a>
+				<div class="popup">
+					<div class="popup__wp">
+						<div class="popup__top"><a href="#x" class="popup__close icon-close"></a></div>
+						<div class="popup__content">
+							<div class="popup__title title">Ваш заказ успшно оформлен!</div>
+							<div class="popup__text">
+								<form id="form1" action="/" method="post" class="form__form">
+									<div class="form__row">
+										<label for="selectId1" class="form__label">Размер блока</label>
+										<select id="selectId1" name="selectId1" placeholder="выберите размер" class="js-styler form__input">
+											<option>600х300х200</option>
+											<option>600Х300Х100</option>
+											<option>600Х400Х200</option>
+											<option>600Х200Х200</option>
+											<option>600Х200Х250</option>
+											<option>600Х250Х300</option>
+										</select>
+									</div>
+									<div class="form__row">
+										<label for="inputCountId" class="form__label">Количество</label>
+										<input id="inputCountId" name="inputCountId" type="number" value="1" min="1" class="form__input form__input-count">
+									</div>
+									<div class="form__row radios">
+										<label class="label">
+											<input type="radio" name="radio" value="1" class="js-styler radio1">Самовызов
+										</label>
+										<label class="label">
+											<input type="radio" name="radio" value="2" checked="" class="js-styler radio2">Доставка
+										</label>
+									</div>
+									<div class="form__row form__row-address">
+										<label for="inputAddressId" class="form__label">Адресс доставки</label>
+										<input id="inputAddressId" name="inputAddressId" type="text" class="form__input form__input-address">
+									</div>
+									<div class="form__row">
+										<label for="inputPhoneId" class="form__label">Телефон</label>
+										<input id="inputPhoneId" name="inputPhoneId" type="text" class="form__input form__input-phone">
+									</div>
+									<div class="form__row">
+										<label for="inputEmailId" class="form__label">Email</label>
+										<input id="inputEmailId" name="inputEmailId" type="text" class="form__input form__input-email">
+									</div>
+									<div class="form__row">
+										<label for="inputNameId" class="form__label">Наименование организации</label>
+										<input id="inputNameId" name="inputNameId" type="text" class="form__input form__input-name">
+									</div>
+									<div class="form__row">
+										<label for="textareaId" class="form__label">Текст вопроса</label>
+										<textarea id="textareaId" name="textareaId" cols="30" rows="10" class="form__input form__textarea"></textarea>
+									</div>
+									<div class="form__row">
+										<input type="file" data-browse="Прикрепить файл" class="js-styler form__file">
+									</div>
+									<div class="form__row">
+										<input type="submit" value="Получить расчет стоимости" class="btn form__submit">
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="wrapper">
+			<header class="header">
+				<div class="contain">
+					<div class="header__top"></div><a href="/" class="logo"><img src="img/logo.png" alt=""><a href="#popup-form" class="btn">Попап форма</a><a href="#popup" class="btn">Попапа</a></a>
+				</div>
+				<nav class="menu">
+					<div class="contain">
+						<ul class="menu__list">
+							<li class="menu__item"><a href="#" class="menu__link">Каталог изделий</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Ворота</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Заборы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link-active">Ограждения</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Столы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Беседки кованые</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Скамейки</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Мангалы</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Урны</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Мебель</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Подставки для цветов </a></li>
+							<li class="menu__item"><a href="#" class="menu__link"> Сувениры и подарки</a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Ритуальные изделия </a></li>
+							<li class="menu__item"><a href="#" class="menu__link">Элементы ковки</a></li>
+						</ul>
+					</div>
+				</nav>
+			</header>
+			<div class="contain">
+				<p>werwerwer</p>
+			</div>
+			<div class="wrapper__footer"></div>
+		</div>
+		<footer class="footer">
+			<nav class="menu">
+				<div class="contain">
+					<ul class="menu__list">
+						<li class="menu__item"><a href="#" class="menu__link">Каталог изделий</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Ворота</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Заборы</a></li>
+						<li class="menu__item"><a href="#" class="menu__link-active">Ограждения</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Столы</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Беседки кованые</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Скамейки</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Мангалы</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Урны</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Мебель</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Подставки для цветов </a></li>
+						<li class="menu__item"><a href="#" class="menu__link"> Сувениры и подарки</a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Ритуальные изделия </a></li>
+						<li class="menu__item"><a href="#" class="menu__link">Элементы ковки</a></li>
+					</ul>
+				</div>
+			</nav>
+			<div class="contain"><a href="#" class="design">Сделала<img src="img/logo-gen.png" alt="Генерация разработка сайтов" class="design__img"></a>
+				<div class="footer__copyright">Все права защищены «Новик» 2015</div>
+				<div class="footer__cop">© Ваше Здоровье, 2016</div>
+				<div class="footer__design"><a href="#" class="link">Разработка и продвижение Студия «»</a></div>
+			</div>
+		</footer>
+		<script src="js/jquery.min.js"></script>
+		<script src="js/main.js"></script>
+	</body>
+</html>

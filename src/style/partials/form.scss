@@ -1,0 +1,199 @@
+/******************form*********************/
+
+.form__form {
+  margin-top: 30px;
+}
+
+.form__row {
+  margin: 10px 0 11px 0px;
+  position: relative;
+}
+
+.form__label {
+  display: inline-block;
+  vertical-align: top;
+  width: 227px;
+  font-size: 16px;
+  margin-top: 11px;
+}
+
+
+
+.form__input {
+  box-sizing: border-box;
+  border: 1px solid black;
+  width: 295px;
+  height: 34px;
+  line-height: 34px;
+  font-size: 16px;
+  font-family: 'PT Sans';
+  padding: 0 10px;
+  background: white;
+
+
+}
+
+.form__input:hover,.form__input:focus {
+  outline: none;
+}
+
+.CHANGED.REQUIRED+.input__valid {
+  display: block;
+}
+
+.CHANGED.REQUIRED {
+
+}
+
+.btn2-active {
+
+}
+
+
+.input__valid {
+  display: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding: 5px 22px 0 17px;
+  width: 250px;
+  letter-spacing: 1px;
+}
+
+.form__textarea {
+  height: 240px;
+}
+
+.form__submit {
+  font-size: 20px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 36px;
+  transition: background .3s;
+}
+
+.form__file {
+  font-size: 16px;
+  text-decoration: underline;
+  color: black;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-family: 'PT Sans';
+  cursor: pointer;
+}
+
+.jq-selectbox__trigger-arrow {
+  position: absolute;
+  top: 12px;
+  right: 8px;
+  width: 16px;
+  height: 9px;
+  cursor: pointer;
+  background: url("../img/icon-trigger.png") no-repeat;
+}
+
+.jq-selectbox__select-text {
+  overflow: hidden;
+  width: 100%;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-right: 30px;
+  box-sizing: border-box;
+}
+
+.jq-selectbox__dropdown {
+  width: 295px;
+  margin-top: -2px;
+  left: -1px;
+  background: white;
+  border: 1px solid black;
+
+  box-sizing: border-box;
+}
+
+.jq-selectbox__dropdown .sel {
+  background: #EBEBEB;
+}
+
+.jq-selectbox__dropdown ul {
+  margin: 0;
+}
+
+.jq-selectbox li {
+  border-bottom: 1px solid #ccccce;
+  cursor: pointer;
+  padding: 5px 10px;
+  line-height: 1.2;
+}
+
+
+.jq-file__name {
+  float: right;
+  text-transform: none;
+  font-weight: 400;
+}
+
+.jq-file__name:hover {
+  text-decoration: none;
+}
+
+.jq-file__browse {
+  cursor: pointer;
+  color: black;
+  text-decoration: underline;
+  padding: 2px 0;
+  cursor: pointer;
+
+
+}
+.form__file, .input-file, .items__more, .jq-file, .jq-file input, .jq-file__browse{
+  cursor: pointer;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.form__file {
+  width: 345px;
+  margin-top: 12px;
+}
+
+
+.jq-radio {
+  top: -1px;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin: 0 10px 0 0;
+  border: 1px solid black;
+  border-radius: 50%;
+
+  cursor: pointer;
+}
+.jq-radio.checked .jq-radio__div {
+  width: 8px;
+  height: 8px;
+  margin: 4px 0 0 4px;
+  border-radius: 50%;
+  background: #fe981b;
+
+}
+
+.jq-radio.disabled {
+  opacity: .55;
+}
+
+.radios label {
+  margin-right: 60px;
+  font-family: 'PT Sans';
+
+}
+
+.radios {
+  margin: 34px 0;
+}
+
+
+
+
+/******************form END*****************/

@@ -1,0 +1,39 @@
+
+.wrapper {
+  min-height: 100%;
+}
+
+
+%inb {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.contain  {
+  width: 1230px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.btn {
+  text-decoration: none;
+  text-align: center;
+  color:white;
+  padding:7px 18px 0px;
+  line-height: 28px;
+  padding-top: 4px;
+  font-size: 12px;
+  border-top: 1px solid #18d373;
+  border-bottom:2px solid #0a6436;
+  background: red;
+  text-transform: uppercase;
+
+
+  @extend %inb;
+
+
+}
+
+.btn:hover {
+  text-decoration: none;
+}

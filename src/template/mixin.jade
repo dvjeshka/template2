@@ -1,0 +1,11 @@
+- var menuItem=['Каталог изделий','Ворота','Заборы','Ограждения','Столы','Беседки кованые','Скамейки','Мангалы','Урны','Мебель','Подставки для цветов ',' Сувениры и подарки','Ритуальные изделия ','Элементы ковки']
+
+mixin menu(items,n)
+    ul(class!=attributes.class+'__list')
+        each item,index in items
+            if index!=n
+                li(class!=attributes.class+'__item'): a(href='#',class!=attributes.class+'__link')= item
+            else
+                li(class!=attributes.class + '__item'): a(href='#',class!=attributes.class + '__link-active')= item
+
+

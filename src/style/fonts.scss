@@ -1,0 +1,37 @@
+
+@font-face {
+  font-family: 'SkolarPE';
+  src: url('../fonts/SkolarPE-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/SkolarPE-Regular.otf')  format('opentype'),
+  url('../fonts/SkolarPE-Regular.woff') format('woff'), url('../fonts/SkolarPE-Regular.ttf')  format('truetype'), url('../fonts/SkolarPE-Regular.svg#SkolarPE-Regular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'SkolarPE';
+  src: url('../fonts/SkolarPE-Bold.eot?#iefix') format('embedded-opentype'),  url('../fonts/SkolarPE-Bold.otf')  format('opentype'),
+  url('../fonts/SkolarPE-Bold.woff') format('woff'), url('../fonts/SkolarPE-Bold.ttf')  format('truetype'), url('../fonts/SkolarPE-Bold.svg#SkolarPE-Bold') format('svg');
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ALSRubl';
+  src: url('../fonts/ALSRubl.eot?#iefix') format('embedded-opentype'),  url('../fonts/ALSRubl.otf')  format('opentype'),
+  url('../fonts/ALSRubl.woff') format('woff'), url('../fonts/ALSRubl.ttf')  format('truetype'), url('../fonts/ALSRubl.svg#ALSRubl') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rouble {
+  font-family: 'ALSRubl';
+  font-weight: 400;
+  text-transform: none;
+}
+
+
+
+
+
+

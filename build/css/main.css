@@ -1,0 +1,134 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+.fancybox-nav,a{text-decoration:none}
+.btn,.menu__item{text-align:center}
+html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}
+a{background-color:transparent;-webkit-text-decoration-skip:objects}
+a:active,a:hover{outline-width:0}
+img{border-style:none}
+input,select,textarea{font:inherit;margin:0}
+input{overflow:visible}
+select{text-transform:none}
+.btn,.form__file{text-transform:uppercase}
+[type=submit]{-webkit-appearance:button}
+[type=submit]::-moz-focus-inner{border-style:none;padding:0}
+[type=submit]:-moz-focusring{outline:ButtonText dotted 1px}
+textarea{overflow:auto;resize:vertical}
+[type=radio]{box-sizing:border-box;padding:0}
+[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}
+::-webkit-input-placeholder{color:inherit;opacity:.54}
+::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}
+@font-face{font-family:slick;font-weight:400;font-style:normal;src:url(fonts/slick.eot);src:url(fonts/slick.eot?#iefix) format("embedded-opentype"),url(fonts/slick.woff) format("woff"),url(fonts/slick.ttf) format("truetype"),url(fonts/slick.svg#slick) format("svg")}
+/*! fancyBox v2.1.5 fancyapps.com | fancyapps.com/fancybox/#license */
+.fancybox-image,.fancybox-inner,.fancybox-nav,.fancybox-nav span,.fancybox-outer,.fancybox-skin,.fancybox-tmp,.fancybox-wrap,.fancybox-wrap iframe,.fancybox-wrap object{padding:0;margin:0;border:0;outline:0;vertical-align:top}
+.fancybox-wrap{position:absolute;top:0;left:0;z-index:8020}
+.fancybox-inner,.fancybox-outer,.fancybox-skin{position:relative}
+.fancybox-skin{background:#f9f9f9;color:#444;text-shadow:none;border-radius:4px}
+.fancybox-opened{z-index:8030}
+.fancybox-opened .fancybox-skin{box-shadow:0 10px 25px rgba(0,0,0,.5)}
+.fancybox-inner{overflow:hidden}
+.fancybox-type-iframe .fancybox-inner{-webkit-overflow-scrolling:touch}
+.fancybox-error{color:#444;font:14px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;margin:0;padding:15px;white-space:nowrap}
+.fancybox-iframe,.fancybox-image{display:block;width:100%;height:100%}
+.fancybox-image{max-width:100%;max-height:100%}
+#fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{background-image:url(fancybox_sprite.png)}
+#fancybox-loading{position:fixed;top:50%;left:50%;margin-top:-22px;margin-left:-22px;background-position:0 -108px;opacity:.8;cursor:pointer;z-index:8060}
+.fancybox-close,.fancybox-nav,.fancybox-nav span{z-index:8040;position:absolute;cursor:pointer}
+#fancybox-loading div{width:44px;height:44px;background:url(fancybox_loading.gif) center center no-repeat}
+.fancybox-close{top:-18px;right:-18px;width:36px;height:36px}
+.fancybox-nav{top:0;width:40%;height:100%;background:url(blank.gif);-webkit-tap-highlight-color:transparent}
+.fancybox-prev{left:0}
+.fancybox-next{right:0}
+.fancybox-nav span{top:50%;width:36px;height:34px;margin-top:-18px;visibility:hidden}
+.fancybox-prev span{left:10px;background-position:0 -36px}
+.fancybox-next span{right:10px;background-position:0 -72px}
+.fancybox-nav:hover span{visibility:visible}
+.fancybox-tmp{position:absolute;top:-99999px;left:-99999px;visibility:hidden;max-width:99999px;max-height:99999px;overflow:visible!important}
+.fancybox-lock,.fancybox-lock body{overflow:hidden!important}
+.fancybox-lock{width:auto}
+.fancybox-lock-test{overflow-y:hidden!important}
+.fancybox-overlay{position:absolute;top:0;left:0;overflow:hidden;display:none;z-index:8010;background:url(fancybox_overlay.png)}
+.fancybox-overlay-fixed{position:fixed;bottom:0;right:0}
+.fancybox-lock .fancybox-overlay{overflow:auto;overflow-y:scroll}
+.fancybox-title{visibility:hidden;font:400 13px/20px "Helvetica Neue",Helvetica,Arial,sans-serif;position:relative;text-shadow:none;z-index:8050}
+.fancybox-opened .fancybox-title{visibility:visible}
+.fancybox-title-float-wrap{position:absolute;bottom:0;right:50%;margin-bottom:-35px;z-index:8050;text-align:center}
+.fancybox-title-float-wrap .child{display:inline-block;margin-right:-100%;padding:2px 20px;background:0 0;background:rgba(0,0,0,.8);border-radius:15px;text-shadow:0 1px 2px #222;color:#FFF;font-weight:700;line-height:24px;white-space:nowrap}
+.fancybox-title-outside-wrap{position:relative;margin-top:10px;color:#fff}
+.fancybox-title-inside-wrap{padding-top:10px}
+.fancybox-title-over-wrap{position:absolute;bottom:0;left:0;color:#fff;padding:10px;background:#000;background:rgba(0,0,0,.8)}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min--moz-device-pixel-ratio:1.5),only screen and (min-device-pixel-ratio:1.5){#fancybox-loading,.fancybox-close,.fancybox-next span,.fancybox-prev span{background-image:url(fancybox_sprite@2x.png);background-size:44px 152px}
+#fancybox-loading div{background-image:url(fancybox_loading@2x.gif);background-size:24px 24px}
+}
+body,html{background:#f8f7f7;height:100%;margin:0;padding:0;color:#3d3d3d;font:14px 'PT Sans',sans-serif}
+.form__file,.popup__content .title{font-weight:700}
+img{max-width:100%}
+a img{border:0}
+footer,header,nav{display:block}
+a{color:#232323}
+a:hover{text-decoration:underline}
+label{cursor:pointer;-moz-user-select:none;-webkit-user-select:none;-ms-user-select:none;user-select:none}
+input[type=submit]{cursor:pointer}
+input,textarea{font-family:inherit;color:inherit;outline:0;box-sizing:border-box}
+.form__file,.form__input,.radios label{font-family:'PT Sans'}
+::-moz-selection{color:#222;background:#ccd6eb}
+::selection{color:#222;background:#ccd6eb}
+::-moz-selection{color:#222;background:#ccd6eb}
+.btn,.menu__link{color:#fff;text-decoration:none}
+@font-face{font-family:SkolarPE;src:url(../fonts/SkolarPE-Regular.eot?#iefix) format("embedded-opentype"),url(../fonts/SkolarPE-Regular.otf) format("opentype"),url(../fonts/SkolarPE-Regular.woff) format("woff"),url(../fonts/SkolarPE-Regular.ttf) format("truetype"),url(../fonts/SkolarPE-Regular.svg#SkolarPE-Regular) format("svg");font-weight:400;font-style:normal}
+@font-face{font-family:SkolarPE;src:url(../fonts/SkolarPE-Bold.eot?#iefix) format("embedded-opentype"),url(../fonts/SkolarPE-Bold.otf) format("opentype"),url(../fonts/SkolarPE-Bold.woff) format("woff"),url(../fonts/SkolarPE-Bold.ttf) format("truetype"),url(../fonts/SkolarPE-Bold.svg#SkolarPE-Bold) format("svg");font-weight:700;font-style:normal}
+@font-face{font-family:ALSRubl;src:url(../fonts/ALSRubl.eot?#iefix) format("embedded-opentype"),url(../fonts/ALSRubl.otf) format("opentype"),url(../fonts/ALSRubl.woff) format("woff"),url(../fonts/ALSRubl.ttf) format("truetype"),url(../fonts/ALSRubl.svg#ALSRubl) format("svg");font-weight:400;font-style:normal}
+.wrapper{min-height:100%}
+.btn,.footer__cop,.footer__design{display:inline-block;vertical-align:top}
+.contain{width:1230px;padding:0 20px;margin:0 auto}
+.btn{padding:4px 18px 0;line-height:28px;font-size:12px;border-top:1px solid #18d373;border-bottom:2px solid #0a6436;background:red}
+.form__input,.jq-selectbox__dropdown{border:1px solid #000;box-sizing:border-box}
+.btn:hover{text-decoration:none}
+.logo{margin-top:10px;text-decoration:none}
+.logo:hover{text-decoration:none}
+.menu{position:relative;background:#1f1f1f}
+.overlay,.popup{bottom:0;position:fixed;top:0;right:0;left:0}
+.menu__list{display:table;width:100%;padding:0;list-style-type:none}
+.menu__item{display:table-cell;background:#000;padding:5px}
+.menu__item:hover{background:#464646}
+.menu__link{font-size:18px}
+.menu__link:hover{text-decoration:none}
+.footer,.wrapper__footer{min-height:80px}
+.footer{margin-top:-80px;background:gray}
+.footer__cop,.footer__design{width:49%}
+.footer__cop{text-align:left}
+.footer__design,.popup__top{text-align:right}
+.footer__design .link{color:#252525;text-decoration:underline}
+.footer__design .link:hover,.icon-close{text-decoration:none}
+.overflow-hidden{overflow:hidden}
+.popup{display:block;opacity:0;visibility:hidden;transition:opacity .5s;overflow:auto;z-index:999999}
+.overlay:target,.overlay:target+.popup{opacity:1;visibility:visible}
+.popup__wp{max-width:736px;background:#fff;box-sizing:border-box;margin:85px auto;box-shadow:0 1px 9px rgba(30,15,0,.53)}
+.overlay{visibility:hidden;background:rgba(80,80,80,.5);opacity:0;z-index:99999;cursor:default}
+.form__file,.jq-file,.jq-file input,.jq-file__browse,.jq-radio,.jq-selectbox li{cursor:pointer}
+.popup__top{height:60px}
+.popup__text{margin-bottom:28px}
+.popup__content{padding:0 50px 50px;font-size:15px}
+.icon-close{display:inline-block;margin:25px;height:18px;width:18px;background:url(../img/icon-close.png) no-repeat}
+.form__form{margin-top:30px}
+.form__row{margin:10px 0 11px;position:relative}
+.form__label{display:inline-block;vertical-align:top;width:227px;font-size:16px;margin-top:11px}
+.form__input{width:295px;height:34px;line-height:34px;font-size:16px;padding:0 10px;background:#fff}
+.form__input:focus,.form__input:hover{outline:0}
+.form__textarea{height:240px}
+.form__submit{font-size:20px;display:block;margin:36px auto 0;transition:background .3s}
+.form__file{font-size:16px;text-decoration:underline;color:#000}
+.jq-selectbox__trigger-arrow{position:absolute;top:12px;right:8px;width:16px;height:9px;cursor:pointer;background:url(../img/icon-trigger.png) no-repeat}
+.jq-selectbox__select-text{overflow:hidden;width:100%;white-space:nowrap;text-overflow:ellipsis;padding-right:30px;box-sizing:border-box}
+.jq-selectbox__dropdown{width:295px;margin-top:-2px;left:-1px;background:#fff}
+.jq-selectbox__dropdown .sel{background:#EBEBEB}
+.jq-selectbox__dropdown ul{margin:0}
+.jq-selectbox li{border-bottom:1px solid #ccccce;padding:5px 10px;line-height:1.2}
+.jq-file__name{float:right;text-transform:none;font-weight:400}
+.jq-file__name:hover{text-decoration:none}
+.jq-file__browse{color:#000;text-decoration:underline;padding:2px 0}
+.form__file{width:345px;margin-top:12px}
+.jq-radio{top:-1px;vertical-align:middle;width:16px;height:16px;margin:0 10px 0 0;border:1px solid #000;border-radius:50%}
+.jq-radio.checked .jq-radio__div{width:8px;height:8px;margin:4px 0 0 4px;border-radius:50%;background:#fe981b}
+.radios label{margin-right:60px}
+.radios{margin:34px 0}
+/*# sourceMappingURL=main.css.map */

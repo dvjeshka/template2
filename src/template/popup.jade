@@ -1,0 +1,63 @@
+
+.popups
+    .popups__item
+        a#popup.overlay(href='#x')
+        .popup
+            .popup__wp
+                .popup__top
+                    a.popup__close.icon-close(href='#x')
+                .popup__content
+                    .form__call-text
+                        .popup__title.title Ваш заказ успшно оформлен!
+                        .popup__text
+                            p Заказ № 378596 доступен для самовывоза по адресу Донбасская, 23а.
+                            p Подробности уточняйте по телефону 235-67-99
+    .popups__item
+        a#popup-form.overlay(href='#x')
+        .popup
+            .popup__wp
+                .popup__top
+                    a.popup__close.icon-close(href='#x')
+                .popup__content
+                    .popup__title.title Ваш заказ успшно оформлен!
+                    .popup__text
+                        form#form1.form__form(action='/', method='post')
+                            .form__row
+                                label.form__label(for='selectId1') Размер блока
+                                select#selectId1.js-styler.form__input(name='selectId1', placeholder='выберите размер')
+                                    option 600х300х200
+                                    option 600Х300Х100
+                                    option 600Х400Х200
+                                    option 600Х200Х200
+                                    option 600Х200Х250
+                                    option 600Х250Х300
+                            .form__row
+                                label.form__label(for='inputCountId') Количество
+                                input#inputCountId.form__input.form__input-count(name='inputCountId', type='number', value='1', min='1')
+                            .form__row.radios
+                                label.label
+                                    input.js-styler.radio1(type='radio', name='radio', value='1')
+                                    | Самовызов
+                                label.label
+                                    input.js-styler.radio2(type='radio', name='radio', value='2', checked='')
+                                    | Доставка
+                            .form__row.form__row-address
+                                label.form__label(for='inputAddressId') Адресс доставки
+                                input#inputAddressId.form__input.form__input-address(name='inputAddressId', type='text')
+                            .form__row
+                                label.form__label(for='inputPhoneId') Телефон
+                                input#inputPhoneId.form__input.form__input-phone(name='inputPhoneId', type='text')
+                            .form__row
+                                label.form__label(for='inputEmailId') Email
+                                input#inputEmailId.form__input.form__input-email(name='inputEmailId', type='text')
+                            .form__row
+                                label.form__label(for='inputNameId') Наименование организации
+                                input#inputNameId.form__input.form__input-name(name='inputNameId', type='text')
+                            .form__row
+                                label.form__label(for='textareaId') Текст вопроса
+                                textarea#textareaId.form__input.form__textarea(name='textareaId', cols='30', rows='10')
+                            .form__row
+                                input.js-styler.form__file(type='file', data-browse='Прикрепить файл')
+                            .form__row
+                                input.btn.form__submit(type='submit', value='Получить расчет стоимости')
+

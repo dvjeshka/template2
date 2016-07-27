@@ -1,0 +1,38 @@
+.menu {
+   position: relative;
+  background: $color1;
+}
+
+.menu__list {
+  display: table;
+  width: 100%;
+  padding: 0;
+  list-style-type: none;
+}
+
+.menu__item {
+  display: table-cell;
+  background: black;
+  padding: 5px;
+  text-align: center;
+}
+
+.menu__item:hover,.menu__item-active{
+  background: #464646;
+}
+
+.menu__link{
+  text-decoration: none;
+  font-size: 18px;
+  color:white;
+
+
+}
+
+.menu__link:hover {
+  text-decoration: none;
+}
+
+
+
+
